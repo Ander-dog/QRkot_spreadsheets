@@ -33,7 +33,6 @@ MANIFEST
 *.manifest
 *.spec
 
-fastapi.db
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -132,5 +131,4 @@ dmypy.json
 # .idea
 .idea
 
-fastapi.db
 test.db
