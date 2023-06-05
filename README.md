@@ -74,6 +74,8 @@ uvicorn app.main:app
 - Alembic (для создания миграций)
 - Pydantic (для создания схем)
 - Swagger (документация проекта)
+- Google Drive API (api для работы с диском)
+- Google Sheets API (api для работы с таблицами)
 
 # Автор
 
