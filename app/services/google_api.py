@@ -49,13 +49,14 @@ def generate_permissions_body(email: str) -> Dict[str, str]:
 
 
 def generate_request_body(
-        values: List[List[Any]]
-    ) -> Dict[str, Union[str, List[List[Any]]]]:
+    values: List[List[Any]]
+) -> Dict[str, Union[str, List[List[Any]]]]:
     request_body = {
         'majorDimension': 'ROWS',
         'values': values
     }
     return request_body
+
 
 async def spreadsheets_create(wrapper_services: Aiogoogle) -> str:
     service = await wrapper_services.discover('sheets', 'v4')
